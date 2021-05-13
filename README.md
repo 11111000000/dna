@@ -25,7 +25,7 @@ export function MyComponent() {
     </style>
 
     <div>
-      <button @click=${ setCounter(counter + 1)}> Count: ${ counter }</button>
+      <button @click=${ event => setCounter(counter + 1)}> Count: ${ counter }</button>
     </div>
   `
 }
