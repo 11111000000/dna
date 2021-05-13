@@ -18,7 +18,7 @@ import {
 import styles from './styles.css'
 
 export function MyComponent() {
-  const [counter, setCounter] = useState
+  const [counter, setCounter] = useState(0)
   return html`
     <style>
       ${styles}
@@ -30,6 +30,11 @@ export function MyComponent() {
   `
 }
 
-export default component(MyComponent)
+customElements.define(
+  'my-component',
+  component(MyComponent)
+)
 
 ```
+
+...and somewhere in HTML: `<my-component></my-component>` 
