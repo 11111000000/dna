@@ -1,6 +1,7 @@
 import { html } from 'lit-element'
 
-export const Spinner = html`<style>
+export const Spinner = html`
+  <style>
     .spinner {
       display: flex;
       flex: 1 1 100%;
@@ -11,6 +12,7 @@ export const Spinner = html`<style>
   </style>
   <div class="spinner">
     <atom-spinner color="#000000" duration="1" size="60"></atom-spinner>
-  </div> `
+  </div>
+`
 
 export default Spinner

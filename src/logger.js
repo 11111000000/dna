@@ -1,7 +1,7 @@
-import badgee from "badgee";
+import badgee from 'badgee'
 
-window.log = badgee.log;
+window.log = badgee.log
 
-export const log = badgee;
+export const log = badgee
 
-export default log;
+export default log

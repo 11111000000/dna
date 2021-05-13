@@ -1,5 +1,6 @@
-import "dynamic-import-polyfill";
-import "@webcomponents/custom-elements";
+import 'dynamic-import-polyfill'
+import '@webcomponents/custom-elements'
+
 // import '@babel/polyfill'
 
 // TODO:
